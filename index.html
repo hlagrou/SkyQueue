@@ -3,65 +3,51 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
     <title>SkyQueue Weather</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a City" required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a City" required />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
 
-    <main>
-      <h1>SkyQueue</h1>
-      <h2>Weather, Lined Up for You</h2>
+      <main>
+        <h1>SkyQueue <span>Weather, Lined Up for You</span></h1>
 
-      <div>
-        <h3>Paris</h3>
-        <p>
-          Tuesday August 6, 2026 14:30 <br />
-          Humidity: 36% Wind:5km/hr
-        </p>
-      </div>
-      <div>⛅ 17℃</div>
+        <div>
+          <h2>Paris</h2>
+          <p>
+            Tuesday August 6, 2026 14:30 <br />
+            Humidity: 36% Wind:5km/hr
+          </p>
+        </div>
+        <div id="presenttemperature">⛅ 17℃</div>
 
-      <div>
-        <li>
+        <div>
           <ul>
-            Sunday
+            <li>Sunday</li>
+            <li>Monday</li>
+            <li>Tuesday</li>
+            <li>Wednesday</li>
+            <li>Thursday</li>
           </ul>
-        </li>
-        <li>
-          <ul>
-            Monday
-          </ul>
-        </li>
-        <li>
-          <ul>
-            Tuesday
-          </ul>
-        </li>
-        <li>
-          <ul>
-            Wednesday
-          </ul>
-        </li>
-        <li>
-          <ul>
-            Thursday
-          </ul>
-        </li>
-      </div>
-    </main>
+        </div>
+      </main>
 
-    <footer>
-      Coded by
-      <a href="https://github.com/hlagrou" targert="_blank">Holly Lagrou</a>and
-      code hosted on
-      <a href="https://github.com/hlagrou/SkyQueue" target="_blank">Github</a>
-      and website hosted on
-      <a href="https://skyqueueweather.netlify.app/" target="_blank">Netlify</a>
-    </footer>
+      <footer>
+        Coded by
+        <a href="https://github.com/hlagrou" target="_blank">Holly Lagrou</a>and
+        code hosted on
+        <a href="https://github.com/hlagrou/SkyQueue" target="_blank">Github</a>
+        and website hosted on
+        <a href="https://skyqueueweather.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
   </body>
 </html>

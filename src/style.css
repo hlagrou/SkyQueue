@@ -1,0 +1,38 @@
+body {
+  background-color: #e0f2fe;
+}
+
+.weather-app {
+  background: #88c9f5;
+  max-width: 600px;
+  margin: 70px auto;
+  padding: 50px;
+}
+
+h1 {
+  color: #1e293b;
+}
+
+span {
+  color: #1e293b;
+  font-style: italic;
+}
+
+h2 {
+  color: #475569;
+}
+
+#presenttemperature {
+  color: #1e3a5f;
+  display: block;
+}
+p {
+  color: #64748b;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 50px;
+}
